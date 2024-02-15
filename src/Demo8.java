@@ -12,7 +12,7 @@ void sum(int x, int y){
     System.out.println(STR."x=\{x}, y=\{y}");
 }
 
-void print(int result){
+ strictfp  static public void print(int result){
     String str = STR."Result=\{result}";
     System.out.println(str);
 }
