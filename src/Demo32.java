@@ -1,22 +1,31 @@
+import java.io.Serializable;
+
 void main(){
-    int[] something1 = null;
+    //int[] something1 = null;
     Integer[] something2 = null;
-    myMethod(something1);
-//    myMethod(something2);
+    myMethod(something2);
 }
 
 void myMethod(int[] num){
     System.out.println("myMethod(int[])");
 }
 
-void myMethod(Integer[] num){
-    System.out.println("myMethod(Integer[])");
+void myMethod(long[] num){
+    System.out.println("myMethod(long[])");
 }
 
-void myMethod(Number[] num){
-    System.out.println("myMethod(Number[])");
-}
+//void myMethod(Integer[] num){
+//    System.out.println("myMethod(Integer[])");
+//}
 
-void myMethod(Object num){
+//void myMethod(Number[] num){
+//    System.out.println("myMethod(Number[])");
+//}
+
+//void myMethod(Object[] num){
+//    System.out.println("myMethod(Object[])");
+//}
+
+void myMethod(Object num) {
     System.out.println("myMethod(Object)");
 }
